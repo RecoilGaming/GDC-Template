@@ -4,7 +4,13 @@ Project Template for Cupertino High School GDC
 
 ## External Resources
 
-Color Palette - https://lospec.com/palette-list/calm-48
+Godot Engine - https://godotengine.org/
+
+Gimp (optional) - https://www.gimp.org/
+
+VSCode (optional) - https://code.visualstudio.com/
+
+Color Palette (optional) - https://lospec.com/palette-list/calm-48
 
 ## Project Structure
 

@@ -2,6 +2,10 @@
 
 Project Template for Cupertino High School GDC
 
+## External Resources
+
+Color Palette - https://lospec.com/palette-list/calm-48
+
 ## Project Structure
 
 % is used to force Godot into placing the folder higher up in the sorted heirarchy
@@ -24,5 +28,5 @@ res://
 │  ├─ Environment - Objects related to the world and environment
 │  ├─ Resources - https://docs.godotengine.org/en/stable/classes/class_resource.html#class-resource
 │  └─ UI - Game menus and their elements
-└─ %Templates - Folder for all template projects
+└─ %Resources - Folder for all project resources / templates
 ```

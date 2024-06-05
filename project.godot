@@ -11,5 +11,20 @@ config_version=5
 [application]
 
 config/name="Placeholder"
+run/main_scene="res://%Resources/1 - Movement/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=240
+window/size/viewport_height=135
+window/size/window_width_override=2000
+window/size/window_height_override=1125
+window/stretch/mode="canvas_items"
+
+[input]
+
+new_action={
+"deadzone": 0.5,
+"events": []
+}

@@ -61,16 +61,28 @@ Pixel art is blurry? Change the sprite's `CanvasItem -> Texture -> Filter` field
 
 ![1-4](../.resources/1-4.png "1-4")
 
+## Resizing the Collider
+
+Resize the collision shape until it fits around the player. It should fully cover the player sprite, leaving a little bit of room around every edge except for the bottom.
+
+A size of 12x16 works well for the provided sprite.
+
+You may have to change the `Sprite2D`'s `Transform.y` if the sprite is off-center.
+
+NOTE - Increasing the y makes the sprite go down in Godot (unlike in Unity)
+
+![1-5](../.resources/1-5.png "1-5")
+
 ## Saving the Player Scene
 
 This section is optional but highly recommended if you don't want your project to be extremely messy.
 
 At this point, we can save the player as a custom scene seperate from the main one. This can be done simply by right-clicking on the player and selecting `Save Branch as Scene`.
 
-![1-5](../.resources/1-5.png "1-5")
+![1-6](../.resources/1-6.png "1-6")
 
 This will prompt you for the location where you want to save the player scene. Select your `Characters -> Player` folder and select `Save`.
 
 You will notice that the hierarchy under the `Player` node has dissapeared and that a new icon has appeared next to  it. Clicking this icon will direct you the the `Player` scene, which is contained within this `Player` node.
 
-![1-6](../.resources/1-6.png "1-6")
+![1-7](../.resources/1-7.png "1-7")

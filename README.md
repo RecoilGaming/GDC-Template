@@ -2,16 +2,6 @@
 
 Project Template for Cupertino High School GDC
 
-## External Resources
-
-Godot Engine - https://godotengine.org/
-
-Gimp (optional) - https://www.gimp.org/
-
-VSCode (optional) - https://code.visualstudio.com/
-
-Color Palette (optional) - https://lospec.com/palette-list/calm-48
-
 ## Project Structure
 
 % is used to force Godot into placing the folder higher up in the sorted heirarchy
@@ -36,3 +26,19 @@ res://
 │  └─ UI - Game menus and their elements
 └─ %Resources - Folder for all project resources / templates
 ```
+
+## Important Resources
+
+0: Setup [HERE](%Resources/0%20-%20Setup/setup.md)
+
+1: Movement [HERE](%Resources/1%20-%20Movement/movement.md)
+
+## External Resources
+
+Godot Engine - https://godotengine.org/
+
+Gimp (optional) - https://www.gimp.org/
+
+VSCode (optional) - https://code.visualstudio.com/
+
+Color Palette (optional) - https://lospec.com/palette-list/calm-48
